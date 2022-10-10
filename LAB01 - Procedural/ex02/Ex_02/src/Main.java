@@ -18,6 +18,14 @@ public class Main {
             input.nextLine();
         }
 
+        System.out.println("Aumentando o preco em 10%% do produto 1 e 3");
+        if(altera_preco(preco[0],10) ==-1){
+            System.out.println("Erro: preco nao alterado. Porcentagem invalida\n");
+        }
+        if(altera_preco(preco[2],10) ==-1){
+            System.out.println("Erro: preco nao alterado. Porcentagem invalida\n");
+        }
+
         System.out.println("Reduzindo o preco em 5% do produto 2");
         if(altera_preco(preco[1],-5) ==-1){
             System.out.println("Erro: preco nao alterado. Porcentagem invalida\n");
