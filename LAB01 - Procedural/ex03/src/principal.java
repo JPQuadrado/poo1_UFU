@@ -48,6 +48,8 @@ public class principal {
 
     public static void ex03() {
         Scanner sc = new Scanner(System.in).useLocale(Locale.US);
+        System.out.println("<<Listando um vetor em ordem inversa >>");
+
         int[] vet = new int[6];
         for (int i = 0; i < 6; i++){
             System.out.printf("Entre com o número %d:\n",i+1);
@@ -62,6 +64,8 @@ public class principal {
 
     public static void ex04() {
         Scanner sc = new Scanner(System.in).useLocale(Locale.US);
+        System.out.println("<<Listando um vetor de números pares>>");
+
         int[] vet = new int[6];
         int i =0;
         System.out.println("<< Listando um vetor >>");
@@ -89,6 +93,8 @@ public class principal {
     }
     public static void ex05() {
         Scanner sc = new Scanner(System.in).useLocale(Locale.US);
+        System.out.println("<< 5 valores>>");
+
         int[] vet = new int[5];
         int maior=0,menor=0;
         float media;
@@ -122,6 +128,8 @@ public class principal {
 
     public static void ex06() {
         Scanner sc = new Scanner(System.in).useLocale(Locale.US);
+        System.out.println("<< 5 valores>>");
+
         int[] vet = new int[5];
         int maior=0,menor=0;
         float media;
@@ -157,6 +165,8 @@ public class principal {
     }
     public static void ex07() {
         Scanner sc = new Scanner(System.in).useLocale(Locale.US);
+        System.out.println("<<Normalizando as notas>>");
+
         int[] vet = new int[5];
         float maior=0;
         float proporcao;
@@ -183,6 +193,7 @@ public class principal {
     }
     public static void ex08() {
         Scanner input = new Scanner(System.in).useLocale(Locale.US);
+
         int[] val = new int[5];
         float sum = 0;
 
@@ -247,7 +258,7 @@ public class principal {
     }
 
     public static void ex10(){
-        Scanner input = new Scanner(System.in);
+        Scanner input = new Scanner(System.in).useLocale(Locale.US);
         System.out.println("<< Subtração de vetores >>");
 
         int[] a = new int[3];
@@ -278,7 +289,7 @@ public class principal {
     }
 
     public static void ex11(){
-        Scanner input = new Scanner(System.in);
+        Scanner input = new Scanner(System.in).useLocale(Locale.US);
         System.out.println("<< Pares e Ímpares >>");
 
         // 0 não é par em impar
@@ -315,7 +326,7 @@ public class principal {
     }
 
     public static void ex12(){
-        Scanner input = new Scanner(System.in);
+        Scanner input = new Scanner(System.in).useLocale(Locale.US);
         System.out.println("<< Probabilidades >>");
 
         int verde,azul,amarela,vermelha;
@@ -387,7 +398,7 @@ public class principal {
     }
 
     public static void ex13(){
-        Scanner input = new Scanner(System.in);
+        Scanner input = new Scanner(System.in).useLocale(Locale.US);
         System.out.println("<<Zerando negativos>>");
 
         int[] vet = new int[5];
@@ -406,14 +417,47 @@ public class principal {
     }
 
     public static void ex14(){
-        Scanner input = new Scanner(System.in);
+        Scanner input = new Scanner(System.in).useLocale(Locale.US);
         System.out.println("<< Universidade X >>");
 
+        int n,id;
+        double cra;
+
+        String classe;
+
+        System.out.printf("Quantos alunos serão cadastrados: ");
+        n = input.nextInt();
+
+        Aluno[] alunos = new Aluno[n];
+
+        for(int i=0; i<n; i++) {
+            System.out.printf("Entre com o número do aluno: ");
+            id = input.nextInt();
+
+            System.out.printf("Entre com a classe social do aluno: ");
+            classe = input.nextLine();
+
+            System.out.printf("Entre com o CRA do aluno %d: ", id);
+            cra = input.nextDouble();
+
+            alunos[i] = new Aluno(id, classe, cra);
+            System.out.println();
+        }
+
+        for(int i=0; i<n; i++){
+            alunos[i].mostrar();
+        }
+
+    }
+
+    public static void ex15(){
+        Scanner input = new Scanner(System.in).useLocale(Locale.US);
+        System.out.println("<< Valores iguais >>");
 
     }
 
     public static void main(String[] args) {
-        ex14();
+        ex15();
 
     }
 }
