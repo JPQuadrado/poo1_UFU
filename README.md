@@ -2,10 +2,11 @@
 
 ### :floppy_disk: Essa pasta ``` poo1_t3_j.pedrocorrea13 ``` conterá as atividades praticas da matéria
 
+## LAB 01
 - **Lab 01 - Ex 01 : Feito**
 - **Lab 01 - Ex 02 : Feito**
-- **Lab 01 - Ex 03 : Feito**
-<br />
+- **Lab 01 - Ex 03 : Feito**  
+## LAB 02
 - **Lab 02 - Ex 01 : Feito**
 - **Lab 02 - Ex 02 : Feito**
 - **Lab 02 - Ex 03 : Feito**
