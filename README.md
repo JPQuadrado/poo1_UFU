@@ -11,3 +11,4 @@
 - **Lab 02 - Ex 02 : Feito**
 - **Lab 02 - Ex 03 : Feito**
 - **Lab 02 - Ex 04 : Duvidas/Incompleto**
+- **Lab 02 - Ex 05 : Duvidas/Incompleto**
