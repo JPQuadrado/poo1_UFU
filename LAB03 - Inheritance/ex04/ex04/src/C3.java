@@ -7,8 +7,11 @@ public class C3 extends C2 {
         System.out.println("Classe C3: chamada do construtor padrao, sem parametros");
     }
 
-    C3(String name, int i, float d){
-        super(name, i, d);
+    C3(String c2name, int c2i, float c2d,String name, int i, float d){
+        super(c2name, c2i, c2d);
+        this.c3name = name;
+        this.c3i = i;
+        this.c3d = d;
         System.out.println("Classe C3: chamada do construtor com parametros");
 
     }
@@ -47,9 +50,12 @@ public class C3 extends C2 {
 
     public void mostrarAtributoSuper(){
         System.out.println("Atributos super c3");
-        System.out.println("name: " + super.name);
-        System.out.println("idade: " + super.getI());
-        System.out.println("dinheiro: " + super.d);
+        System.out.println("Name C2: " + super.c2name);
+        System.out.println("Idade C2: " + super.getI());
+        System.out.println("Dinheiro C2: " + super.c2d);
+        System.out.println("Name C3: " + this.c3name);
+        System.out.println("Idade C3: " + this.c3i);
+        System.out.println("Dinheiro C3: " + this.c3d);
         System.out.println();
     }
 }

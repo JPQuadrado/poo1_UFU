@@ -7,6 +7,7 @@ public class C2 extends C1 {
         System.out.println("Classe C2: chamada do construtor padrao, sem parametros");
     }
 
+
     C2(String name, int i, float d){
         this.c2name = name;
         this.c2i = i;
@@ -41,17 +42,20 @@ public class C2 extends C1 {
 
     public void mostrarAtributos(){
         System.out.println("Atributos c2");
-        System.out.println("name: " + this.c2name);
-        System.out.println("idade: " + this.c2i);
-        System.out.println("dinheiro: " + this.c2d);
+        System.out.println("Name C2: " + this.c2name);
+        System.out.println("Idade C2: " + this.c2i);
+        System.out.println("Dinheiro C2: " + this.c2d);
         System.out.println();
     }
 
     public void mostrarAtributoSuper(){
         System.out.println("Atributos super c2");
-        System.out.println("name: " + super.name);
-        System.out.println("idade: " + super.getI());
-        System.out.println("dinheiro: " + super.d);
+        System.out.println("Name C1: " + super.name);
+        System.out.println("Idade C1: " + super.getI());
+        System.out.println("Dinheiro C1: " + super.d);
+        System.out.println("Name C2: " + this.c2name);
+        System.out.println("Idade C2: " + this.c2i);
+        System.out.println("Dinheiro: " + this.c2d);
         System.out.println();
     }
 }

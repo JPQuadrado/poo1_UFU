@@ -41,9 +41,9 @@ public class C1 {
 
     public void mostrarAtributos(){
         System.out.println("Atributos c1");
-        System.out.println("name: " + this.name);
-        System.out.println("idade: " + this.i);
-        System.out.println("dinheiro: " + this.d);
+        System.out.println("Name C1: " + this.name);
+        System.out.println("Idade C1: " + this.i);
+        System.out.println("Dinheiro C1: " + this.d);
         System.out.println();
     }
 
