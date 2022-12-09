@@ -6,7 +6,8 @@ public class FormaBidimensional extends Forma {
     public FormaBidimensional(){
         super("NaN", "NaN");
         this.formato = "NaN";
-    };
+    }
+
     public FormaBidimensional(String formato) {
         this.formato = formato;
     }

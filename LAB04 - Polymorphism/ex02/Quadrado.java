@@ -6,7 +6,7 @@ public class Quadrado extends FormaBidimensional  {
         this.lateral = 0;
     }
 
-    Quadrado(float raio){
+    Quadrado(float lateral){
         super("Quadrado NaN","Bidmensional","Quadrado");
         this.lateral = lateral;
     }

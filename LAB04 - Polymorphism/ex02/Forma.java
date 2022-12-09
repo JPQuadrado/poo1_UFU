@@ -27,6 +27,9 @@ public class Forma {
         this.tipo = tipo;
     }
 
+    public void obterArea(){};
+    public void obterVolume(){};
+
     public void mostrarDesc(){
         System.out.println("NOME: " + getNome());
         System.out.println("TIPO: " + getTipo());

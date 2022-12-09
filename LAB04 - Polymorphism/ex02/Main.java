@@ -14,8 +14,15 @@ public class Main {
         fig[4] = new Cubo("Cubo_10", 10);
         fig[5] = new Tetraedro(6,4);
 
+
         for (int i=0; i < 6; i++){
             System.out.println();
+            if(fig[i] instanceof FormaTridimensional){
+                fig[i].obterArea();
+                fig[i].obterVolume();
+            }else {
+                fig[i].obterArea();
+            }
             fig[i].mostrarDesc();
             System.out.println();
         }
