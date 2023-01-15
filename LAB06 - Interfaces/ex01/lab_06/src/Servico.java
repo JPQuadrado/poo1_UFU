@@ -2,6 +2,10 @@ public class Servico implements Classificavel{
 
     private float preco;
 
+    public Servico(float preco){
+        this.preco = preco;
+    }
+
     public boolean eMenorQue(Classificavel s){
         Servico compara = ( Servico ) s;
 

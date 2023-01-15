@@ -1,6 +1,10 @@
 public class Cliente implements Classificavel{
     private String name;
 
+    public Cliente(String name){
+        this.name = name;
+    }
+
     public boolean eMenorQue(Classificavel c){
         Cliente compara = ( Cliente ) c;
 
