@@ -22,4 +22,24 @@ Adicionalmente
 
 - Indique a diferença entre checked e uncheked exceptions
 
-## Resposta Ex02
+# Resposta Ex02
+## Throw e Throws
+
+A palavra-chave throw, que está no imperativo, lança uma Exception . Isso é bem diferente de
+throws , que está no presente do indicativo e só avisa da possibilidade daquele método lançá-la,
+obrigando o outro método que vá utilizar-se daquele a se preocupar com essa exceção em questão
+
+---
+
+O throw é um comando de lançamento de exceções, ao ser chamado o mesmo força uma exceção.
+
+As duas formar existentes de tratamento de exceções em Java do ponto de vista método são: Try/Catch and Throws
+
+Ao se criar um throws delegamos um tratamento de exceção para o metódo o qual chamou.
+
+## Checked e Unchecked
+
+As exceções chamadas de Unchecked são aquelas na qual o compilador não checa se as exceções estão sendo tratadas ou não
+
+As exceções chamadas de Checked são aquelas que obrigam quem chama o metodo ou construturo a tratar a exceção
+"Must be caught or declared to be throw.
