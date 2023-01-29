@@ -21,3 +21,5 @@ Adicionalmente
 - Qual a diferença entre o throw e throws ? Justifique explicado o que cada comando faz
 
 - Indique a diferença entre checked e uncheked exceptions
+
+## Resposta Ex02
