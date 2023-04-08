@@ -42,4 +42,4 @@ Ao se criar um throws delegamos um tratamento de exceção para o metódo o qual
 As exceções chamadas de Unchecked são aquelas na qual o compilador não checa se as exceções estão sendo tratadas ou não
 
 As exceções chamadas de Checked são aquelas que obrigam quem chama o metodo ou construturo a tratar a exceção
-"Must be caught or declared to be throw.
+"Must be caught or declared to be throw".
